@@ -764,6 +764,29 @@ body {
   text-align: center;
 }
 
+/* ---- CALENDAR ---- */
+.calendar-wrapper {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-200);
+  margin-bottom: 20px;
+}
+
+.calendar-note {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--gray-500);
+}
+
+.calendar-note a {
+  color: var(--green-700);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.calendar-note a:hover { text-decoration: underline; }
+
 /* ---- FOOTER ---- */
 .footer {
   background: var(--gray-900);
