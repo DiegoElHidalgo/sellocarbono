@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sello Carbono – Certifica la huella de carbono de tu organización y demuestra tu compromiso con el planeta." />
+  <title>Sello Carbono</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <svg class="logo__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" fill="#2d7a45"/>
+          <path d="M20 8C13.4 8 8 13.4 8 20s5.4 12 12 12 12-5.4 12-12S26.6 8 20 8zm0 2c5.5 0 10 4.5 10 10S25.5 30 20 30 10 25.5 10 20 14.5 10 20 10z" fill="white" opacity="0.3"/>
+          <path d="M20 12c-1.5 3-4 5-7 6 0 5.5 3 9 7 10 4-1 7-4.5 7-10-3-1-5.5-3-7-6z" fill="white"/>
+        </svg>
+        <span class="logo__text">Sello Carbono</span>
+      </a>
+      <nav class="nav">
+        <a href="#que-es" class="nav__link">¿Qué es?</a>
+        <a href="#beneficios" class="nav__link">Beneficios</a>
+        <a href="#como-funciona" class="nav__link">Cómo funciona</a>
+        <a href="#contacto" class="nav__btn">Contáctanos</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="badge">🌿 Certificación ambiental</span>
+        <h1 class="hero__title">Certifica tu huella,<br /><em>lidera el cambio</em></h1>
+        <p class="hero__subtitle">
+          El Sello Carbono reconoce a las organizaciones que miden, reducen y compensan su impacto climático. Únete al movimiento por un futuro más sostenible.
+        </p>
+        <div class="hero__actions">
+          <a href="#como-funciona" class="btn btn--primary">Quiero certificarme</a>
+          <a href="#que-es" class="btn btn--ghost">Saber más</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <strong>+200</strong>
+            <span>empresas certificadas</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <strong>15.000 t</strong>
+            <span>CO₂ reducidas</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <strong>12 países</strong>
+            <span>de alcance</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card">
+          <div class="hero__card-icon">🌍</div>
+          <p class="hero__card-label">Planeta más sano</p>
+        </div>
+        <div class="hero__badge-float">
+          <svg viewBox="0 0 100 100" class="badge-ring">
+            <circle cx="50" cy="50" r="45" fill="none" stroke="#2d7a45" stroke-width="4" stroke-dasharray="283" stroke-dashoffset="60" />
+          </svg>
+          <span>✓</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- QUÉ ES -->
+  <section class="section" id="que-es">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">¿Qué es?</span>
+        <h2 class="section__title">Un sello que demuestra<br />tu compromiso real</h2>
+        <p class="section__desc">
+          El Sello Carbono es una certificación independiente que acredita que tu organización ha medido su huella de carbono y está tomando acciones concretas para reducirla y compensarla.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card__icon">📊</div>
+          <h3>Medición</h3>
+          <p>Calculamos las emisiones de gases de efecto invernadero (GEI) de tu organización con metodologías internacionales reconocidas (GHG Protocol, ISO 14064).</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">📉</div>
+          <h3>Reducción</h3>
+          <p>Identificamos las principales fuentes de emisión y diseñamos un plan de acción adaptado para reducir progresivamente tu impacto climático.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🌱</div>
+          <h3>Compensación</h3>
+          <p>Las emisiones inevitables se compensan a través de proyectos de reforestación y energías renovables verificados internacionalmente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section section--green" id="beneficios">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <span class="section__tag section__tag--light">Beneficios</span>
+        <h2 class="section__title">¿Por qué obtener<br />el Sello Carbono?</h2>
+      </div>
+      <div class="benefits">
+        <div class="benefit">
+          <div class="benefit__icon">🏆</div>
+          <div>
+            <h4>Reputación y confianza</h4>
+            <p>Diferénciate de la competencia y demuestra a clientes y socios tu compromiso verificado con la sostenibilidad.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon">📋</div>
+          <div>
+            <h4>Cumplimiento regulatorio</h4>
+            <p>Anticípate a las regulaciones de reporte climático y evita riesgos legales y financieros asociados.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon">💰</div>
+          <div>
+            <h4>Ahorro de costos</h4>
+            <p>Identificar ineficiencias energéticas reduce gastos operativos y mejora la rentabilidad de tu organización.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon">🤝</div>
+          <div>
+            <h4>Acceso a mercados verdes</h4>
+            <p>Cumple con los criterios ESG que exigen cada vez más inversores, licitaciones públicas y cadenas de suministro.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon">👥</div>
+          <div>
+            <h4>Atracción de talento</h4>
+            <p>Las nuevas generaciones eligen empleadores con propósito. El sello refuerza tu cultura organizacional sostenible.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit__icon">🌍</div>
+          <div>
+            <h4>Impacto real en el planeta</h4>
+            <p>Más allá del marketing, contribuyes con acciones concretas y medibles a los Objetivos de Desarrollo Sostenible (ODS).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section class="section" id="como-funciona">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Proceso</span>
+        <h2 class="section__title">Cómo obtener tu sello</h2>
+        <p class="section__desc">Un proceso claro, acompañado y verificado en cuatro pasos.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">1</div>
+          <div class="step__content">
+            <h4>Diagnóstico inicial</h4>
+            <p>Analizamos tu organización, actividades y fuentes de emisión para definir el alcance de la medición.</p>
+          </div>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__number">2</div>
+          <div class="step__content">
+            <h4>Cálculo de huella</h4>
+            <p>Recopilamos datos y calculamos las emisiones de alcance 1, 2 y 3 con metodología certificada.</p>
+          </div>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__number">3</div>
+          <div class="step__content">
+            <h4>Plan de reducción</h4>
+            <p>Diseñamos un roadmap de reducción con metas concretas y proyectos de compensación alineados a tu realidad.</p>
+          </div>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__number">4</div>
+          <div class="step__content">
+            <h4>Certificación y sello</h4>
+            <p>Verificamos el cumplimiento y emitimos el Sello Carbono oficial, válido por 12 meses con seguimiento continuo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO / CTA -->
+  <section class="section section--cta" id="contacto">
+    <div class="container">
+      <div class="cta__inner">
+        <div class="cta__text">
+          <h2>¿Listo para certificar<br />tu huella de carbono?</h2>
+          <p>Déjanos tus datos y un experto te contactará en menos de 24 horas para explicarte el proceso sin costo ni compromiso.</p>
+        </div>
+        <form class="cta__form" id="contactForm" novalidate>
+          <div class="form__row">
+            <input type="text" name="nombre" placeholder="Nombre y apellido" required />
+            <input type="email" name="email" placeholder="Correo electrónico" required />
+          </div>
+          <input type="text" name="empresa" placeholder="Nombre de tu organización" />
+          <textarea name="mensaje" rows="3" placeholder="¿Alguna consulta o comentario? (opcional)"></textarea>
+          <button type="submit" class="btn btn--primary btn--full">Solicitar información gratuita</button>
+          <p class="form__note">Al enviar aceptas nuestra política de privacidad. No enviamos spam.</p>
+          <p class="form__success" id="formSuccess" hidden>✅ ¡Mensaje enviado! Te contactaremos pronto.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo">
+          <svg class="logo__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#2d7a45"/>
+            <path d="M20 8C13.4 8 8 13.4 8 20s5.4 12 12 12 12-5.4 12-12S26.6 8 20 8zm0 2c5.5 0 10 4.5 10 10S25.5 30 20 30 10 25.5 10 20 14.5 10 20 10z" fill="white" opacity="0.3"/>
+            <path d="M20 12c-1.5 3-4 5-7 6 0 5.5 3 9 7 10 4-1 7-4.5 7-10-3-1-5.5-3-7-6z" fill="white"/>
+          </svg>
+          <span class="logo__text">Sello Carbono</span>
+        </a>
+        <p>Certificando el compromiso climático de las organizaciones hacia un futuro carbono neutro.</p>
+      </div>
+      <nav class="footer__nav">
+        <h5>Navegación</h5>
+        <a href="#que-es">¿Qué es?</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Sello Carbono. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky header
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 20);
+    });
+
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const nav = document.querySelector('.nav');
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('nav--open');
+      navToggle.classList.toggle('nav__toggle--open');
+    });
+
+    // Close nav on link click
+    document.querySelectorAll('.nav__link, .nav__btn').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('nav--open');
+        navToggle.classList.remove('nav__toggle--open');
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Contact form
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+      setTimeout(() => {
+        document.getElementById('formSuccess').hidden = false;
+        this.reset();
+        btn.textContent = 'Solicitar información gratuita';
+        btn.disabled = false;
+      }, 1000);
+    });
+
+    // Intersection observer for fade-in animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.card, .benefit, .step').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
