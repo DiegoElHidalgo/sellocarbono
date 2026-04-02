@@ -269,13 +269,13 @@
     <div class="container">
       <div class="section__header">
         <span class="section__tag">Agenda una reunión</span>
-        <h2 class="section__title">Conversa con un experto<br />sin costo ni compromiso</h2>
-        <p class="section__desc">Selecciona el día y horario que más te acomode y un especialista de ATMOS SPA te explicará el proceso de certificación HuellaChile adaptado a tu empresa.</p>
+        <h2 class="section__title">Reserva tu consulta gratuita<br />con un experto HuellaChile</h2>
+        <p class="section__desc">Selecciona el día y horario que más te acomode. Un especialista de ATMOS SPA te explicará el proceso de certificación adaptado a tu empresa, sin costo ni compromiso.</p>
       </div>
       <div class="calendar-wrapper">
-        <iframe src="https://calendar.google.com/calendar/embed?src=atmoschilespa%40gmail.com&ctz=America%2FSantiago&mode=WEEK&showTitle=0&showNav=1&showPrint=0&showTabs=0&showCalendars=0" style="border:0" width="100%" height="600" frameborder="0" scrolling="no" title="Calendario ATMOS SPA"></iframe>
+        <iframe src="https://calendar.app.google/nQ89Q3jcxziD949r9" style="border:0" width="100%" height="700" frameborder="0" scrolling="yes" title="Agendar consulta ATMOS SPA"></iframe>
       </div>
-      <p class="calendar-note">¿Prefieres contacto directo? Escríbenos por <a href="https://wa.me/56984335211" target="_blank" rel="noopener">WhatsApp</a> o al correo <a href="mailto:cristianhidalgo@atmospa.cl">cristianhidalgo@atmospa.cl</a></p>
+      <p class="calendar-note">¿Prefieres contacto directo? Escríbenos por <a href="https://wa.me/56984335211" target="_blank" rel="noopener">WhatsApp</a> o al correo <a href="mailto:atmoschilespa@gmail.com">atmoschilespa@gmail.com</a></p>
     </div>
   </section>
 
@@ -310,8 +310,10 @@
             </div>
           </div>
         </div>
-        <form class="cta__form" id="contactForm" novalidate>
+        <form class="cta__form" id="contactForm" action="https://formspree.io/f/xpwzgkqb" method="POST">
           <h3 class="form__title">Solicita tu asesoría ahora</h3>
+          <input type="hidden" name="_subject" value="Nueva consulta desde sellocarbono.cl" />
+          <input type="hidden" name="_next" value="https://sellocarbono.cl?enviado=true" />
           <div class="form__row">
             <input type="text" name="nombre" placeholder="Nombre y apellido" required />
             <input type="email" name="email" placeholder="Correo electrónico" required />
