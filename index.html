@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sello Carbono – Certifica la huella de carbono de tu organización y demuestra tu compromiso con el planeta." />
-  <title>Sello Carbono</title>
+  <meta name="description" content="Obtén tu certificación HuellaChile con acompañamiento experto. ATMOS SPA te guía paso a paso para cuantificar y verificar la huella de carbono de tu empresa." />
+  <meta name="keywords" content="HuellaChile, huella de carbono, certificación carbono, GHG Protocol, ISO 14064, emisiones GEI, Mercado Público, sostenibilidad Chile" />
+  <title>Certificación HuellaChile – ATMOS SPA</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -20,13 +21,14 @@
           <path d="M20 8C13.4 8 8 13.4 8 20s5.4 12 12 12 12-5.4 12-12S26.6 8 20 8zm0 2c5.5 0 10 4.5 10 10S25.5 30 20 30 10 25.5 10 20 14.5 10 20 10z" fill="white" opacity="0.3"/>
           <path d="M20 12c-1.5 3-4 5-7 6 0 5.5 3 9 7 10 4-1 7-4.5 7-10-3-1-5.5-3-7-6z" fill="white"/>
         </svg>
-        <span class="logo__text">Sello Carbono</span>
+        <span class="logo__text">ATMOS SPA</span>
       </a>
-      <nav class="nav">
-        <a href="#que-es" class="nav__link">¿Qué es?</a>
-        <a href="#beneficios" class="nav__link">Beneficios</a>
+      <nav class="nav" id="nav">
+        <a href="#servicios" class="nav__link">Servicios</a>
         <a href="#como-funciona" class="nav__link">Cómo funciona</a>
-        <a href="#contacto" class="nav__btn">Contáctanos</a>
+        <a href="#testimonios" class="nav__link">Testimonios</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+        <a href="#contacto" class="nav__btn">Solicitar asesoría</a>
       </nav>
       <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
         <span></span><span></span><span></span>
@@ -38,42 +40,39 @@
   <section class="hero">
     <div class="container hero__inner">
       <div class="hero__content">
-        <span class="badge">🌿 Certificación ambiental</span>
-        <h1 class="hero__title">Certifica tu huella,<br /><em>lidera el cambio</em></h1>
+        <span class="badge">🌿 Programa HuellaChile – Ministerio del Medio Ambiente</span>
+        <h1 class="hero__title">Certifica la Huella de Carbono<br /><em>de tu Empresa</em></h1>
         <p class="hero__subtitle">
-          El Sello Carbono reconoce a las organizaciones que miden, reducen y compensan su impacto climático. Únete al movimiento por un futuro más sostenible.
+          Te guiamos paso a paso para que tu empresa cumpla con los requisitos del Ministerio del Medio Ambiente y avance con seguridad hacia la certificación HuellaChile. Mejora tu posicionamiento en licitaciones de Mercado Público y demuestra tu compromiso con la sostenibilidad.
         </p>
         <div class="hero__actions">
-          <a href="#como-funciona" class="btn btn--primary">Quiero certificarme</a>
-          <a href="#que-es" class="btn btn--ghost">Saber más</a>
+          <a href="#contacto" class="btn btn--primary">Solicitar asesoría ahora</a>
+          <a href="#como-funciona" class="btn btn--ghost">Cómo funciona</a>
         </div>
-        <div class="hero__stats">
-          <div class="stat">
-            <strong>+200</strong>
-            <span>empresas certificadas</span>
-          </div>
-          <div class="stat__divider"></div>
-          <div class="stat">
-            <strong>15.000 t</strong>
-            <span>CO₂ reducidas</span>
-          </div>
-          <div class="stat__divider"></div>
-          <div class="stat">
-            <strong>12 países</strong>
-            <span>de alcance</span>
-          </div>
+        <div class="hero__trust">
+          <div class="trust-item">✓ GHG Protocol / ISO 14064</div>
+          <div class="trust-item">✓ Verificación con organismo acreditado</div>
+          <div class="trust-item">✓ Diploma oficial HuellaChile</div>
         </div>
       </div>
       <div class="hero__visual">
         <div class="hero__card">
-          <div class="hero__card-icon">🌍</div>
-          <p class="hero__card-label">Planeta más sano</p>
+          <div class="hero__card-seal">
+            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+              <circle cx="60" cy="60" r="56" fill="white" opacity="0.15" stroke="white" stroke-width="2"/>
+              <circle cx="60" cy="60" r="44" fill="white" opacity="0.1" stroke="white" stroke-width="1.5"/>
+              <text x="60" y="52" text-anchor="middle" fill="white" font-size="28" font-family="Inter,sans-serif">🌿</text>
+              <text x="60" y="74" text-anchor="middle" fill="white" font-size="10" font-family="Inter,sans-serif" font-weight="700">HUELLA</text>
+              <text x="60" y="88" text-anchor="middle" fill="white" font-size="10" font-family="Inter,sans-serif" font-weight="700">CHILE</text>
+            </svg>
+          </div>
+          <p class="hero__card-label">Diploma Oficial HuellaChile</p>
+          <p class="hero__card-sub">Ministerio del Medio Ambiente</p>
         </div>
-        <div class="hero__badge-float">
-          <svg viewBox="0 0 100 100" class="badge-ring">
-            <circle cx="50" cy="50" r="45" fill="none" stroke="#2d7a45" stroke-width="4" stroke-dasharray="283" stroke-dashoffset="60" />
-          </svg>
-          <span>✓</span>
+        <div class="hero__stat-pills">
+          <div class="stat-pill">📋 Alcance 1, 2 y 3</div>
+          <div class="stat-pill">🏆 Mercado Público</div>
+          <div class="stat-pill">📊 Informe técnico GEI</div>
         </div>
       </div>
     </div>
@@ -84,130 +83,169 @@
     </div>
   </section>
 
-  <!-- QUÉ ES -->
-  <section class="section" id="que-es">
+  <!-- PROPUESTA DE VALOR -->
+  <section class="section section--light" id="servicios">
     <div class="container">
       <div class="section__header">
-        <span class="section__tag">¿Qué es?</span>
-        <h2 class="section__title">Un sello que demuestra<br />tu compromiso real</h2>
+        <span class="section__tag">Nuestros servicios</span>
+        <h2 class="section__title">Cómo te ayudamos a avanzar<br />hacia la certificación HuellaChile</h2>
         <p class="section__desc">
-          El Sello Carbono es una certificación independiente que acredita que tu organización ha medido su huella de carbono y está tomando acciones concretas para reducirla y compensarla.
+          Acompañamiento integral desde el cálculo de emisiones hasta la obtención del diploma oficial, con metodología alineada a los estándares del Ministerio del Medio Ambiente.
         </p>
       </div>
       <div class="cards">
         <div class="card">
           <div class="card__icon">📊</div>
-          <h3>Medición</h3>
-          <p>Calculamos las emisiones de gases de efecto invernadero (GEI) de tu organización con metodologías internacionales reconocidas (GHG Protocol, ISO 14064).</p>
+          <h3>Cálculo y verificación de Huella de Carbono</h3>
+          <p>Realizamos el cálculo de la huella de carbono corporativa considerando todas las fuentes de emisión relevantes según la metodología HuellaChile. Gestionamos el proceso de verificación con un organismo acreditado.</p>
+          <ul class="card__list">
+            <li>Medición por Alcance 1, 2 y 3</li>
+            <li>Inventario de GEI en tCO₂e</li>
+            <li>Informe técnico con trazabilidad</li>
+          </ul>
         </div>
         <div class="card">
-          <div class="card__icon">📉</div>
-          <h3>Reducción</h3>
-          <p>Identificamos las principales fuentes de emisión y diseñamos un plan de acción adaptado para reducir progresivamente tu impacto climático.</p>
+          <div class="card__icon">🤝</div>
+          <h3>Asesoría integral para la certificación</h3>
+          <p>Te acompañamos durante todo el proceso: creación de la empresa en las plataformas del Ministerio, recolección de datos, elaboración del informe y apoyo durante la verificación con el organismo acreditado.</p>
+          <ul class="card__list">
+            <li>Registro en plataformas del MMA</li>
+            <li>Recolección y análisis de datos</li>
+            <li>Soporte para reportes ESG y licitaciones</li>
+          </ul>
         </div>
         <div class="card">
-          <div class="card__icon">🌱</div>
-          <h3>Compensación</h3>
-          <p>Las emisiones inevitables se compensan a través de proyectos de reforestación y energías renovables verificados internacionalmente.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BENEFICIOS -->
-  <section class="section section--green" id="beneficios">
-    <div class="container">
-      <div class="section__header section__header--light">
-        <span class="section__tag section__tag--light">Beneficios</span>
-        <h2 class="section__title">¿Por qué obtener<br />el Sello Carbono?</h2>
-      </div>
-      <div class="benefits">
-        <div class="benefit">
-          <div class="benefit__icon">🏆</div>
-          <div>
-            <h4>Reputación y confianza</h4>
-            <p>Diferénciate de la competencia y demuestra a clientes y socios tu compromiso verificado con la sostenibilidad.</p>
-          </div>
-        </div>
-        <div class="benefit">
-          <div class="benefit__icon">📋</div>
-          <div>
-            <h4>Cumplimiento regulatorio</h4>
-            <p>Anticípate a las regulaciones de reporte climático y evita riesgos legales y financieros asociados.</p>
-          </div>
-        </div>
-        <div class="benefit">
-          <div class="benefit__icon">💰</div>
-          <div>
-            <h4>Ahorro de costos</h4>
-            <p>Identificar ineficiencias energéticas reduce gastos operativos y mejora la rentabilidad de tu organización.</p>
-          </div>
-        </div>
-        <div class="benefit">
-          <div class="benefit__icon">🤝</div>
-          <div>
-            <h4>Acceso a mercados verdes</h4>
-            <p>Cumple con los criterios ESG que exigen cada vez más inversores, licitaciones públicas y cadenas de suministro.</p>
-          </div>
-        </div>
-        <div class="benefit">
-          <div class="benefit__icon">👥</div>
-          <div>
-            <h4>Atracción de talento</h4>
-            <p>Las nuevas generaciones eligen empleadores con propósito. El sello refuerza tu cultura organizacional sostenible.</p>
-          </div>
-        </div>
-        <div class="benefit">
-          <div class="benefit__icon">🌍</div>
-          <div>
-            <h4>Impacto real en el planeta</h4>
-            <p>Más allá del marketing, contribuyes con acciones concretas y medibles a los Objetivos de Desarrollo Sostenible (ODS).</p>
-          </div>
+          <div class="card__icon">🎓</div>
+          <h3>Obtención del Diploma HuellaChile</h3>
+          <p>Una vez verificada la información, gestionamos el proceso final para obtener el Diploma de Cuantificación del programa HuellaChile, reconocimiento oficial que acredita que tu organización ha cuantificado su huella conforme a los estándares establecidos.</p>
+          <ul class="card__list">
+            <li>Diploma oficial del MMA</li>
+            <li>Válido para Mercado Público</li>
+            <li>Respaldo para reputación ESG</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CÓMO FUNCIONA -->
-  <section class="section" id="como-funciona">
+  <section class="section section--green" id="como-funciona">
     <div class="container">
-      <div class="section__header">
-        <span class="section__tag">Proceso</span>
-        <h2 class="section__title">Cómo obtener tu sello</h2>
-        <p class="section__desc">Un proceso claro, acompañado y verificado en cuatro pasos.</p>
+      <div class="section__header section__header--light">
+        <span class="section__tag section__tag--light">Proceso</span>
+        <h2 class="section__title" style="color:white">Proceso claro, documentación ordenada<br />y acompañamiento experto</h2>
+        <p class="section__desc" style="color:rgba(255,255,255,0.8)">Un experto te contacta para cotizar la cuantificación, explicar los requisitos y definir el alcance ideal para tu empresa.</p>
       </div>
       <div class="steps">
         <div class="step">
           <div class="step__number">1</div>
           <div class="step__content">
-            <h4>Diagnóstico inicial</h4>
-            <p>Analizamos tu organización, actividades y fuentes de emisión para definir el alcance de la medición.</p>
+            <h4>Evaluación inicial</h4>
+            <p>Un experto te contacta para cotizar, explicar los requisitos de HuellaChile y definir el alcance ideal según tu rubro y tamaño.</p>
           </div>
         </div>
         <div class="step__arrow">→</div>
         <div class="step">
           <div class="step__number">2</div>
           <div class="step__content">
-            <h4>Cálculo de huella</h4>
-            <p>Recopilamos datos y calculamos las emisiones de alcance 1, 2 y 3 con metodología certificada.</p>
+            <h4>Levantamiento de datos</h4>
+            <p>Recopilamos consumos de electricidad, combustibles, transporte y residuos, aplicando factores de emisión según metodología GHG Protocol / ISO 14064.</p>
           </div>
         </div>
         <div class="step__arrow">→</div>
         <div class="step">
           <div class="step__number">3</div>
           <div class="step__content">
-            <h4>Plan de reducción</h4>
-            <p>Diseñamos un roadmap de reducción con metas concretas y proyectos de compensación alineados a tu realidad.</p>
+            <h4>Informe técnico y verificación</h4>
+            <p>Elaboramos el inventario de GEI en tCO₂e con recomendaciones de reducción y gestionamos la verificación con organismo acreditado.</p>
           </div>
         </div>
         <div class="step__arrow">→</div>
         <div class="step">
           <div class="step__number">4</div>
           <div class="step__content">
-            <h4>Certificación y sello</h4>
-            <p>Verificamos el cumplimiento y emitimos el Sello Carbono oficial, válido por 12 meses con seguimiento continuo.</p>
+            <h4>Diploma HuellaChile</h4>
+            <p>Obtienes el Diploma oficial del programa HuellaChile del Ministerio del Medio Ambiente, válido para licitaciones, ESG y reputación.</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section" id="testimonios">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Testimonios</span>
+        <h2 class="section__title">Empresas que obtuvieron su<br />certificación HuellaChile</h2>
+      </div>
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Contamos con el apoyo profesional para cuantificar y verificar nuestra huella de carbono. Nos acompañaron durante todo el proceso, desde el levantamiento de información hasta la obtención del Diploma Oficial de HuellaChile. Fue una experiencia ordenada, clara y con un excelente nivel de compromiso."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">JB</div>
+            <div>
+              <strong>Juan Carlos Blawciak</strong>
+              <span>Gerente General – STEWARD y CLEANERS</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"El equipo nos asesoró de manera muy profesional en la cuantificación de nuestra huella de carbono. Todo el proceso fue claro y bien estructurado, y finalmente obtuvimos nuestro diploma oficial de HuellaChile. Estamos muy conformes con el resultado y el apoyo recibido."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">MT</div>
+            <div>
+              <strong>Marcela Torres</strong>
+              <span>Jefa de Sustentabilidad – Industrias Patagonia</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Gracias a su acompañamiento, pudimos medir y verificar nuestra huella de carbono de forma ordenada y conforme a la normativa vigente. El proceso fue eficiente y transparente, lo que nos permitió certificar nuestro compromiso ambiental con confianza."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">RM</div>
+            <div>
+              <strong>Ricardo Muñoz</strong>
+              <span>Gerente de Operaciones – Transportes Andina</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--light" id="faq">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Preguntas frecuentes</span>
+        <h2 class="section__title">Resolvemos tus dudas sobre<br />Huella de Carbono en Chile</h2>
+        <p class="section__desc">Cálculo de GEI, Alcance 1, 2 y 3, proceso de verificación y certificación HuellaChile.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>¿Qué es la huella de carbono de una empresa y para qué sirve?</summary>
+          <p>La huella de carbono corporativa es la medición de emisiones de gases de efecto invernadero (GEI) expresadas en tCO₂e. Sirve para identificar tus principales fuentes de emisión, reducir costos energéticos, fortalecer el cumplimiento ESG y mejorar tu posición en licitaciones de Mercado Público y auditorías.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Cómo se calcula la huella de carbono?</summary>
+          <p>Se calcula recopilando datos de consumo y actividad (electricidad, combustibles, transporte, residuos) y aplicando factores de emisión según metodología GHG Protocol o ISO 14064. El resultado se consolida en un inventario de GEI y un informe con trazabilidad para revisión interna o verificación externa.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué incluye el servicio de medición y cuantificación?</summary>
+          <p>Incluye levantamiento de información, definición de límites organizacionales, cálculo de emisiones GEI por Alcance 1, 2 y 3 (según corresponda), reporte técnico en tCO₂e, recomendaciones de reducción, y un plan de trabajo con checklist de documentos para acelerar el proceso de verificación.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué es el Alcance 1, 2 y 3?</summary>
+          <p><strong>Alcance 1:</strong> Emisiones directas de fuentes que posee o controla la organización (combustibles, flota propia). <strong>Alcance 2:</strong> Emisiones indirectas por consumo de electricidad. <strong>Alcance 3:</strong> Otras emisiones indirectas de la cadena de valor (proveedores, transporte de carga, viajes de negocios, residuos).</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Para qué sirve la certificación HuellaChile en Mercado Público?</summary>
+          <p>El Diploma HuellaChile mejora tu posicionamiento en licitaciones del Estado, ya que muchas bases de licitación otorgan puntaje adicional a empresas con acreditación ambiental. Además, fortalece tu reputación ESG ante clientes, inversionistas y organismos reguladores.</p>
+        </details>
       </div>
     </div>
   </section>
@@ -217,18 +255,51 @@
     <div class="container">
       <div class="cta__inner">
         <div class="cta__text">
-          <h2>¿Listo para certificar<br />tu huella de carbono?</h2>
-          <p>Déjanos tus datos y un experto te contactará en menos de 24 horas para explicarte el proceso sin costo ni compromiso.</p>
+          <h2>Solicita tu evaluación<br />para obtener tu Huella de Carbono</h2>
+          <p>Un experto te contacta para cotizar la cuantificación, explicar los requisitos de certificación HuellaChile y definir el alcance ideal para tu empresa.</p>
+          <div class="cta__contact-info">
+            <a href="https://wa.me/56984335211" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-link__icon">💬</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>+56 9 8433 5211</span>
+              </div>
+            </a>
+            <a href="mailto:cristianhidalgo@atmospa.cl" class="contact-link">
+              <span class="contact-link__icon">✉️</span>
+              <div>
+                <strong>Correo electrónico</strong>
+                <span>cristianhidalgo@atmospa.cl</span>
+              </div>
+            </a>
+            <div class="contact-link">
+              <span class="contact-link__icon">🕐</span>
+              <div>
+                <strong>Horario de atención</strong>
+                <span>Lunes a Viernes 9:00–18:00 · Sábados hasta 14:00</span>
+              </div>
+            </div>
+          </div>
         </div>
         <form class="cta__form" id="contactForm" novalidate>
+          <h3 class="form__title">Solicita tu asesoría ahora</h3>
           <div class="form__row">
             <input type="text" name="nombre" placeholder="Nombre y apellido" required />
             <input type="email" name="email" placeholder="Correo electrónico" required />
           </div>
-          <input type="text" name="empresa" placeholder="Nombre de tu organización" />
-          <textarea name="mensaje" rows="3" placeholder="¿Alguna consulta o comentario? (opcional)"></textarea>
+          <div class="form__row">
+            <input type="text" name="empresa" placeholder="Nombre de tu empresa" />
+            <input type="tel" name="telefono" placeholder="Teléfono / WhatsApp" />
+          </div>
+          <select name="alcance">
+            <option value="" disabled selected>¿Qué alcance necesitas? (opcional)</option>
+            <option>Alcance 1 y 2</option>
+            <option>Alcance 1, 2 y 3</option>
+            <option>No lo sé aún</option>
+          </select>
+          <textarea name="mensaje" rows="3" placeholder="¿Alguna consulta? (opcional)"></textarea>
           <button type="submit" class="btn btn--primary btn--full">Solicitar información gratuita</button>
-          <p class="form__note">Al enviar aceptas nuestra política de privacidad. No enviamos spam.</p>
+          <p class="form__note">Sin costo ni compromiso. Te respondemos en menos de 24 horas hábiles.</p>
           <p class="form__success" id="formSuccess" hidden>✅ ¡Mensaje enviado! Te contactaremos pronto.</p>
         </form>
       </div>
@@ -245,20 +316,25 @@
             <path d="M20 8C13.4 8 8 13.4 8 20s5.4 12 12 12 12-5.4 12-12S26.6 8 20 8zm0 2c5.5 0 10 4.5 10 10S25.5 30 20 30 10 25.5 10 20 14.5 10 20 10z" fill="white" opacity="0.3"/>
             <path d="M20 12c-1.5 3-4 5-7 6 0 5.5 3 9 7 10 4-1 7-4.5 7-10-3-1-5.5-3-7-6z" fill="white"/>
           </svg>
-          <span class="logo__text">Sello Carbono</span>
+          <span class="logo__text">ATMOS SPA</span>
         </a>
-        <p>Certificando el compromiso climático de las organizaciones hacia un futuro carbono neutro.</p>
+        <p>Cuantificación y verificación de huella de carbono corporativa con metodología HuellaChile, GHG Protocol e ISO 14064.</p>
+        <div class="footer__contact">
+          <a href="https://wa.me/56984335211" target="_blank" rel="noopener">+56 9 8433 5211</a>
+          <a href="mailto:cristianhidalgo@atmospa.cl">cristianhidalgo@atmospa.cl</a>
+        </div>
       </div>
       <nav class="footer__nav">
         <h5>Navegación</h5>
-        <a href="#que-es">¿Qué es?</a>
-        <a href="#beneficios">Beneficios</a>
+        <a href="#servicios">Servicios</a>
         <a href="#como-funciona">Cómo funciona</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#faq">Preguntas frecuentes</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
     <div class="footer__bottom">
-      <p>© 2025 Sello Carbono. Todos los derechos reservados.</p>
+      <p>© 2026 ATMOS SPA. Santiago, Chile. Todos los derechos reservados.</p>
     </div>
   </footer>
 
@@ -271,13 +347,12 @@
 
     // Mobile nav toggle
     const navToggle = document.getElementById('navToggle');
-    const nav = document.querySelector('.nav');
+    const nav = document.getElementById('nav');
     navToggle.addEventListener('click', () => {
       nav.classList.toggle('nav--open');
       navToggle.classList.toggle('nav__toggle--open');
     });
 
-    // Close nav on link click
     document.querySelectorAll('.nav__link, .nav__btn').forEach(link => {
       link.addEventListener('click', () => {
         nav.classList.remove('nav--open');
@@ -310,7 +385,7 @@
       }, 1000);
     });
 
-    // Intersection observer for fade-in animations
+    // Intersection observer for animations
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -319,7 +394,7 @@
       });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.card, .benefit, .step').forEach(el => observer.observe(el));
+    document.querySelectorAll('.card, .step, .testimonial, .faq-item').forEach(el => observer.observe(el));
   </script>
 </body>
 </html>
