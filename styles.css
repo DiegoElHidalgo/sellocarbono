@@ -751,6 +751,22 @@ body {
 
 .cta__form textarea { resize: vertical; min-height: 80px; }
 
+.form__error {
+  font-size: 0.9rem;
+  color: #dc2626;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  background: #fef2f2;
+  border-radius: var(--radius);
+  border: 1px solid #fecaca;
+}
+
+.form__field-error {
+  font-size: 0.78rem;
+  color: #dc2626;
+}
+
 .form__note {
   font-size: 0.76rem;
   color: var(--gray-500);
