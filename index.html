@@ -310,10 +310,8 @@
             </div>
           </div>
         </div>
-        <form class="cta__form" id="contactForm" action="https://formspree.io/f/meepldvj" method="POST">
+        <form class="cta__form" id="contactForm">
           <h3 class="form__title">Solicita tu asesoría ahora</h3>
-          <input type="hidden" name="_subject" value="Nueva consulta desde sellocarbono.cl" />
-          <input type="hidden" name="_next" value="https://sellocarbono.cl/gracias.html" />
           <div class="form__row">
             <input type="text" name="nombre" placeholder="Nombre y apellido" required />
             <input type="email" name="email" placeholder="Correo electrónico" required />
@@ -329,9 +327,34 @@
             <option>No lo sé aún</option>
           </select>
           <textarea name="mensaje" rows="3" placeholder="¿Alguna consulta? (opcional)"></textarea>
-          <button type="submit" class="btn btn--primary btn--full">Solicitar información gratuita</button>
+          <button type="submit" class="btn btn--primary btn--full" id="submitBtn">Solicitar información gratuita</button>
           <p class="form__note">Sin costo ni compromiso. Te respondemos en menos de 24 horas hábiles.</p>
+          <p class="form__error" id="formError" style="display:none">❌ Hubo un error. Intenta nuevamente o escríbenos por WhatsApp.</p>
         </form>
+        <script>
+          document.getElementById('contactForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.textContent = 'Enviando...';
+            try {
+              const res = await fetch('https://formspree.io/f/meepldvj', {
+                method: 'POST',
+                body: new FormData(this),
+                headers: { 'Accept': 'application/json' }
+              });
+              if (res.ok) {
+                window.location.href = '/gracias.html';
+              } else {
+                throw new Error('Error');
+              }
+            } catch {
+              document.getElementById('formError').style.display = 'block';
+              btn.disabled = false;
+              btn.textContent = 'Solicitar información gratuita';
+            }
+          });
+        </script>
       </div>
     </div>
   </section>
