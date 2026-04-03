@@ -310,36 +310,27 @@
             </div>
           </div>
         </div>
-        <div data-fs-success class="form__success" style="display:none">✅ ¡Mensaje enviado! Te contactaremos en menos de 24 horas hábiles.</div>
-        <div data-fs-error class="form__error" style="display:none">❌ Hubo un error al enviar. Por favor intenta nuevamente.</div>
-
-        <form class="cta__form" id="contactForm">
+        <form class="cta__form" id="contactForm" action="https://formspree.io/f/meepldvj" method="POST">
           <h3 class="form__title">Solicita tu asesoría ahora</h3>
+          <input type="hidden" name="_subject" value="Nueva consulta desde sellocarbono.cl" />
           <div class="form__row">
-            <input type="text" name="nombre" placeholder="Nombre y apellido" required data-fs-field />
-            <input type="email" name="email" placeholder="Correo electrónico" required data-fs-field />
-            <span data-fs-error="email" class="form__field-error"></span>
+            <input type="text" name="nombre" placeholder="Nombre y apellido" required />
+            <input type="email" name="email" placeholder="Correo electrónico" required />
           </div>
           <div class="form__row">
-            <input type="text" name="empresa" placeholder="Nombre de tu empresa" data-fs-field />
-            <input type="tel" name="telefono" placeholder="Teléfono / WhatsApp" data-fs-field />
+            <input type="text" name="empresa" placeholder="Nombre de tu empresa" />
+            <input type="tel" name="telefono" placeholder="Teléfono / WhatsApp" />
           </div>
-          <select name="alcance" data-fs-field>
+          <select name="alcance">
             <option value="" disabled selected>¿Qué alcance necesitas? (opcional)</option>
             <option>Alcance 1 y 2</option>
             <option>Alcance 1, 2 y 3</option>
             <option>No lo sé aún</option>
           </select>
-          <textarea name="mensaje" rows="3" placeholder="¿Alguna consulta? (opcional)" data-fs-field></textarea>
-          <button type="submit" class="btn btn--primary btn--full" data-fs-submit-btn>Solicitar información gratuita</button>
+          <textarea name="mensaje" rows="3" placeholder="¿Alguna consulta? (opcional)"></textarea>
+          <button type="submit" class="btn btn--primary btn--full">Solicitar información gratuita</button>
           <p class="form__note">Sin costo ni compromiso. Te respondemos en menos de 24 horas hábiles.</p>
         </form>
-
-        <script>
-          window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-          formspree('initForm', { formElement: '#contactForm', formId: 'meepldvj' });
-        </script>
-        <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
       </div>
     </div>
   </section>
