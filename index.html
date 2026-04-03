@@ -401,18 +401,6 @@
     });
 
     // Contact form
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const btn = this.querySelector('button[type="submit"]');
-      btn.disabled = true;
-      btn.textContent = 'Enviando...';
-      setTimeout(() => {
-        document.getElementById('formSuccess').hidden = false;
-        this.reset();
-        btn.textContent = 'Solicitar información gratuita';
-        btn.disabled = false;
-      }, 1000);
-    });
 
     // Intersection observer for animations
     const observer = new IntersectionObserver((entries) => {
